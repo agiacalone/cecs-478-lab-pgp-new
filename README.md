@@ -10,14 +10,19 @@ You will generate a public and private key paring using GnuPG. For our assignmen
 1. Install GnuPG as described above
 2. Clone your assignment repository (this one!) to your virtual machine
 3. Generate your public and private key pair
-4. Decrypt the message included in `secret_message.asc` using my public key `public_key.asc` and your private key `private_key_student.asc` (**Note!**: All file names must be *exact* in this assignment!)
-5. Read the message
-6. Encrypt the *exact same message* back to my by using your private key `private_key_student.asc` and my public key `public_key.asc` as the file `secret_message_response.asc`
-7. Copy your public key `public_key_student.asc` to the repository
-8. Copy the newly created `secret_message_response.asc` to the repository
-9. **DO NOT INCLUDE ANYTHING ELSE IN THE REPOSITORY**, including your secret key and the decrypted message. Including either of these will cause you to lose 50% of the points for this assignment!
-10. Commit and push your repository to Github
-11. Enjoy your favorite beverage, as you are done!
+4. Place your public key in the project repository folder as `public_key.asc`
+5. Commit and push your repository. Wait at least one working day (not weekend day)
+6. Pull your repository. There will be at least two new files there named `message_to_student.asc` and `verification.asc` 
+7. Decrypt the message included in `message_to_student.asc` using my public key `prof_pkey.asc` and your private key (**Note!**: All file names must be *exact* in this assignment!)
+8. Read the message
+9. Encrypt the *exact same message* back to my by using your private key and my public key `prof_pkey.asc` as the file `secret_message_response.asc`
+10. Place the `secret_message_response.asc` file in the git repository (don't use any sub-directories)
+11. **DO NOT INCLUDE ANYTHING ELSE IN THE REPOSITORY**, including your secret key and the decrypted message. Including either of these will cause you to lose 50% of the points for this assignment!
+12. Commit and push the repository. Wait another working day or two
+13. Pull the repository and you should see a new file named `verdicts.json` and possibly others
+14. Read `verdicts.json` and fix any errors
+15. Commit, push, repeat until all errors are resolved
+16. Enjoy your favorite beverage, as you are done!
 
 ## Deliverables
-Your final commit and push with the files `public_key_student.asc` and `secret_message_response.asc` in the root directory (along with the files already included with the repository) is your submission. Don't place your files in any subfolders or subdirectories.
+Your final commit and push with the files `public_key.asc`, `message_to_student.asc`, and the final `verdicts.json` in the root directory (along with the files already included with the repository) is your submission. Don't place your files in any subfolders or subdirectories.
