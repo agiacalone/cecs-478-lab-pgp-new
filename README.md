@@ -10,7 +10,7 @@ You will generate a public and private key pair using GnuPG. For our assignment,
 1. Install GnuPG as described above
 2. Clone your assignment repository (this one!) to your virtual machine
 3. Generate your public and private key pair
-4. Place your public key in the project repository folder as `public_key.asc` (**Note!**: All file names must be *exact* in this assignment!)
+4. Place your public key in the project repository folder as `public_key.asc` (**Note!** All file names must be *exact* in this assignment!)
 5. Commit and push your repository. Wait at least one working day (not weekend day)
 6. Pull your repository. There will be at least two new files there named `message_to_student.asc` and `verification.asc` 
 7. Decrypt the message included in `message_to_student.asc` using your private key
