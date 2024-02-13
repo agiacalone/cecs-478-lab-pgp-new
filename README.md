@@ -25,4 +25,4 @@ You will generate a public and private key pair using GnuPG. For our assignment,
 16. Enjoy your favorite beverage, as you are done!
 
 ## Deliverables
-Your final commit and push with the files `public_key.asc`, `message_to_student.asc`, `secret_message_response.asc` and the final `verdicts.json` in the root directory (along with the files already included with the repository) is your submission. Don't place your files in any subfolders or subdirectories.
+Your final commit and push with the files `public_key.asc`, `message_to_student.asc`, `secret_message_response.asc` and the final `verdicts.json` in the root directory (along with the files already included with the repository) is your submission. Don't place your files in any subfolders or subdirectories. Also, do not compress your files.
