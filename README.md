@@ -13,15 +13,15 @@ You will generate a public and private key pair using GnuPG. For our assignment,
 4. Place your public key in the project repository folder as `public_key.asc`
 5. Commit and push your repository. Wait at least one working day (not weekend day)
 6. Pull your repository. There will be at least two new files there named `message_to_student.asc` and `verification.asc` 
-7. Decrypt the message included in `message_to_student.asc` using my public key `prof_pkey.asc` and your private key (**Note!**: All file names must be *exact* in this assignment!)
+7. Decrypt the message included in `message_to_student.asc` using your private key (**Note!**: All file names must be *exact* in this assignment!)
 8. Read the message
-9. Encrypt the *exact same message* back to my by using your private key and my public key `prof_pkey.asc` as the file `secret_message_response.asc`
+9. Encrypt the *exact same message* back to me by using your private key and my public key `prof_pkey.asc` as the file `secret_message_response.asc`
 10. Place the `secret_message_response.asc` file in the git repository (don't use any sub-directories)
 11. **DO NOT INCLUDE ANYTHING ELSE IN THE REPOSITORY**, including your secret key and the decrypted message. Including either of these will cause you to lose 50% of the points for this assignment!
 12. Commit and push the repository. Wait another working day or two
 13. Pull the repository and you should see a new file named `verdicts.json` and possibly others
 14. Read `verdicts.json` and fix any errors
-15. Commit, push, repeat until all errors are resolved
+15. Repeat #12 - #15 until all errors are resolved. You will get a new `verdicts.json` for every cycle
 16. Enjoy your favorite beverage, as you are done!
 
 ## Deliverables
