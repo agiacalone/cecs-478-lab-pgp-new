@@ -5,7 +5,7 @@ This assignment is designed to demonstrate how PGP encryption works by using ope
 
 Install [GnuPG](https://gnupg.org/) in your virtual machine image (use apt--your package manager on Ubuntu, not the website download) and create a public/private key pair. The command `sudo apt install gnupg` should install the requisite programs on your virtual machine. 
 
-GitHub has some [good documentation on how to do this here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key). I'd recommend following those instructions on creating a key and getting GnuPG set up properly.
+GitHub has some [really good documentation on how to use GnuPG here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key). I'd recommend following those instructions on creating a key and getting GnuPG set up properly.
 
 You will generate a public and private key pair using GnuPG. For our assignment, you will need to do the following:
 
