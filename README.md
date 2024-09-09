@@ -3,7 +3,7 @@
 ## Assignment Description
 This assignment is designed to demonstrate how PGP encryption works by using open-source and *auditable* tools to encrypt email messages. It will work equally well on just about any plain-text message.
 
-Install [GnuPG](https://gnupg.org/) in your virtual machine image (use apt--your package manager on Linux Mint, not the website download) and create a public/private key pair. The command `sudo apt install gnupg` should install the requisite programs on your virtual machine. Github has some [good documentation on how to do this here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
+Install [GnuPG](https://gnupg.org/) in your virtual machine image (use apt--your package manager on Linux Mint, not the website download) and create a public/private key pair. The command `sudo apt install gnupg` should install the requisite programs on your virtual machine. GitHub has some [good documentation on how to do this here](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key).
 
 You will generate a public and private key pair using GnuPG. For our assignment, you will need to do the following:
 
