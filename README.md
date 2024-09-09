@@ -1,4 +1,4 @@
-# CECS 478 Lab: Asymmetric Encryption with Pretty-Good-Privacy (PGP) (Fall 2024 Edition)
+# CECS 478 Lab: Asymmetric Encryption with Pretty Good Privacy (PGP) (Fall 2024 Edition)
 
 ## Assignment Description
 This assignment is designed to demonstrate how PGP encryption works by using open-source and *auditable* tools to encrypt email messages. It will work equally well on just about any plain-text message.
